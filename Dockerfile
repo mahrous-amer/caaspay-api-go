@@ -41,9 +41,6 @@ USER 1001
 # Expose the application port
 EXPOSE 8080
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
-    CMD ["/app/", "healthcheck"]
-
+# Default command
 ENTRYPOINT ["/app/caaspay-api-go"]
 
