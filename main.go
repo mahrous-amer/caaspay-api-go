@@ -11,7 +11,6 @@ import (
 	"context"
 	"fmt"
 	"log"
-	"os"
 
 	"github.com/gin-gonic/gin"
 	swaggerFiles "github.com/swaggo/files"
